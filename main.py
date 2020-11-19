@@ -16,7 +16,7 @@ def output_to_log(sys):
 
 # function used to print all questions
 def my_submission():
-    print('\n     This is my submission for JOLIEOI test:\n')
+    print('\n     This is my submission for JOLIMOI test:\n')
     question_one()
     print('\n')
     question_two()
@@ -30,7 +30,7 @@ def my_submission():
 
 start_time = datetime.datetime.now()  # start timer to measure the execution time
 
-#output_to_log(sys)    #uncomment to save outputs to log file
+output_to_log(sys)    #uncomment to save outputs to log file
 my_submission()  # calls submission function
 
 end_time = datetime.datetime.now()  # retrieve the end time

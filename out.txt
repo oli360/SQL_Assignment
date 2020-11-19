@@ -1,5 +1,5 @@
 
-     This is my submission for JOLIEOI test:
+     This is my submission for JOLIMOI test:
 
      Question 1: (SQL) Which artist in this data set lived the longest?
 
@@ -47,7 +47,7 @@ with 831.2737 m^2 of art created.
      Question 4: (Python, R or SQL) Did any artists have artwork acquired during their lifetime?
 
 5767 artists had their artwork acquired during their lifetime. Two assumptions where
-made, since we do have access to the exact day of death of artists it is assumed they dief on the first of
+made; since we do have access to the exact day of death of artists it is assumed they died on the first of
 January. The second assumption is for artist who have no death date however are born fairly recently, since
 the average life expectancy is 78 years, it is assumed that any artist born after 1942 and do not have a 
 death year, are still alive today.
@@ -64,14 +64,14 @@ are capable of storing dates and times as TEXT, REAL, or INTEGER values."[from h
 This means it is possible to store dates as long as they are formatted correctly (ex:YYYY-MM-DD) the MoMa 
 database does this correctly in the "Acquisition Date" column of artworks table however only uses the year in 
 the artists "Death Year" and "Birth Year".
-3) The column "Dimensions" in the table artworks is formatted in a multiple of different way sometime containing
-letter and sometime number, making it hard to use.
+3) The column "Dimensions" in the table artworks is formatted in a multiple of different ways, sometimes containing
+letters and sometimes numbers, making it very hard to use.
 4) The column "Classification" in the table artworks contains "Mies van der Rohe Archive" and "Frank Lloyd Wright Archive"
 these could be combined into one "archives" categorie.
-5) Some artworks have multiple "artist ID" these makes joining tables very complicated, these artworks where ignored 
+5) Some artworks have multiple "artist ID" this makes joining tables very complicated, these artworks where ignored 
 in this assignment, a better practise would be to duplicate them.
 6) Some artwork titles seem to be bugs or mistakes (ex:"5 x 5 = 25: Vystavka zhivopisi" (5 x 5 = 25: An Exhibition of Painting))
 7) Some artworks have a circumference but no diameter it would logical that artwork with a circumference have a
 diameter. It is understandable however that some pieces may have a diameter and no circumference (ex: vase or glass)
 8) Some information is missing, some artists have passed away and no death year is present in database 
-ex:Poul Cadovius or Arthur Fauser
+ex:Poul Cadovius or Arthur Fauser9) Some artists in the artist table are not artists ex: DAS INSTITUT, DIS, "Lerival, New York" 
