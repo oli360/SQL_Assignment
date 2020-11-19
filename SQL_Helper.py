@@ -10,7 +10,7 @@ def get_connection():
     conn = sqlite3.connect(db_location)
     return conn
 
-# return the specified entries form a sql query result
+# return the specified entries from a sql query result
 def get_entry(select_return, row_number, column_number):
     i = 0
     for row in select_return:
