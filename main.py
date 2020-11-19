@@ -30,7 +30,7 @@ def my_submission():
 
 start_time = datetime.datetime.now()  # start timer to measure the execution time
 
-output_to_log(sys)    #uncomment to save outputs to log file
+#output_to_log(sys)    #uncomment to save outputs to log file
 my_submission()  # calls submission function
 
 end_time = datetime.datetime.now()  # retrieve the end time

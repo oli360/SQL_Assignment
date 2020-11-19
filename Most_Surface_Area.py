@@ -99,16 +99,16 @@ all_objects_surface_area = get_entry(result_table_only_all_objects_and_artists, 
 def question_three():
     print('     Question 3: (SQL) Which artist is created the most artwork by total surface area?')
     print('')
-    print('Contrarily to the previous questions this  question is open to a multitude of interpretations, the surface\n'
+    print('Contrarily to the previous questions this question is open to a multitude of interpretations, the surface\n'
           'area of artworks can be very complex to calculate, for example measuring the surface are of a sculpture \n'
           'can be near impossible. \n'
-          '     Two answers are proposed for the question, the fist is relatively simple, we only look at 2D \n'
-          'rectangular artworks.This can be done by looking at the "classification" attribute and only selecting data\n'
+          '     Two answers are proposed for the question, the first is relatively simple, we only look at 2D \n'
+          'rectangular artworks. This can be done by looking at the "classification" attribute and only selecting data\n'
           'entries containing "Print", "Work on Paper", "Photography Research/Reference","Painting", "Photograph"or \n'
           '"Drawing", and only selecting the height and width values to measure the surface area. This approach \n'
           'returns', top_rectangular_name, 'as the artist with the most surface area with',
           "{:.4f}".format(top_rectangular_surface_area * 0.0001),
-          'm^2 of art created.\nWhile this approach is straight forward is doesn\'t take any sculture into consideration'
+          'm^2 of art created.\nWhile this approach is straight forward is doesn\'t take any scultures into consideration'
           ' nor does it look at \nsimple 3D objects like plates or vases. It measures the surface area of 62 490 on 130'
           ' 000 artworks so', "{:.2f}".format(6249000 / 130000), '% \nof the artwork.\n'
           '     As mentioned previously measuring the surface are of all artworks is impossible however we can increase the\n'
