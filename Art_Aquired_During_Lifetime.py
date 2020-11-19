@@ -44,7 +44,7 @@ def question_four():
     print('')
     print(get_entry(result_table, 0, 0),
           'artists had their artwork acquired during their lifetime. Two assumptions where\n'
-          'made, since we do have access to the exact day of death of artists it is assumed they dies on the first of\n'
+          'made, since we do have access to the exact day of death of artists it is assumed they dief on the first of\n'
           'January. The second assumption is for artist who have no death date however are born fairly recently, since\n'
           'the average life expectancy is 78 years, it is assumed that any artist born after 1942 and do not have a \n'
           'death year, are still alive today.')

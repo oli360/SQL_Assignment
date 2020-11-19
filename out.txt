@@ -23,18 +23,18 @@ Leni Matthaei is the artist who lived the longest, she managed to reach 108 year
 
      Question 3: (SQL) Which artist is created the most artwork by total surface area?
 
-Contrarily to the previous questions this  question is open to a multitude of interpretations, the surface
+Contrarily to the previous questions this question is open to a multitude of interpretations, the surface
 area of artworks can be very complex to calculate, for example measuring the surface are of a sculpture 
 can be near impossible. 
-     Two answers are proposed for the question, the fist is relatively simple, we only look at 2D 
-rectangular artworks.This can be done by looking at the "classification" attribute and only selecting data
+     Two answers are proposed for the question, the first is relatively simple, we only look at 2D 
+rectangular artworks. This can be done by looking at the "classification" attribute and only selecting data
 entries containing "Print", "Work on Paper", "Photography Research/Reference","Painting", "Photograph"or 
 "Drawing", and only selecting the height and width values to measure the surface area. This approach 
 returns Louise Bourgeois as the artist with the most surface area with 394.6953 m^2 of art created.
-While this approach is straight forward is doesn't take any sculture into consideration nor does it look at 
+While this approach is straight forward is doesn't take any scultures into consideration nor does it look at 
 simple 3D objects like plates or vases. It measures the surface area of 62 490 on 130 000 artworks so 48.07 % 
 of the artwork.
-     As mentioned previously measuring the surface are of all artworks is impossible however we can increase the
+     As mentioned previously measuring the surface area of all artworks is impossible however we can increase the
 percentage of used artworks to  86.39 % by making a couple assumptions:
 -all objects with only a "diameter" attribute are circular objects
 -all objects with a "diameter" attribute and a value in "Width","Length","Height" are  cylinders
@@ -47,7 +47,7 @@ with 831.2737 m^2 of art created.
      Question 4: (Python, R or SQL) Did any artists have artwork acquired during their lifetime?
 
 5767 artists had their artwork acquired during their lifetime. Two assumptions where
-made, since we do have access to the exact day of death of artists it is assumed they dies on the first of
+made, since we do have access to the exact day of death of artists it is assumed they dief on the first of
 January. The second assumption is for artist who have no death date however are born fairly recently, since
 the average life expectancy is 78 years, it is assumed that any artist born after 1942 and do not have a 
 death year, are still alive today.
@@ -73,4 +73,5 @@ in this assignment, a better practise would be to duplicate them.
 6) Some artwork titles seem to be bugs or mistakes (ex:"5 x 5 = 25: Vystavka zhivopisi" (5 x 5 = 25: An Exhibition of Painting))
 7) Some artworks have a circumference but no diameter it would logical that artwork with a circumference have a
 diameter. It is understandable however that some pieces may have a diameter and no circumference (ex: vase or glass)
-8) Some information is incorrect  
+8) Some information is missing, some artists have passed away and no death year is present in database 
+ex:Poul Cadovius or Arthur Fauser

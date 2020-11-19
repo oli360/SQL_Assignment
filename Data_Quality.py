@@ -20,4 +20,5 @@ def question_five():
           '6) Some artwork titles seem to be bugs or mistakes (ex:"5 x 5 = 25: Vystavka zhivopisi" (5 x 5 = 25: An Exhibition of Painting))\n'
           '7) Some artworks have a circumference but no diameter it would logical that artwork with a circumference have a\n'
           'diameter. It is understandable however that some pieces may have a diameter and no circumference (ex: vase or glass)\n'
-          '8) Some information is incorrect  ')
+          '8) Some information is missing, some artists have passed away and no death year is present in database \n'
+          'ex:Poul Cadovius or Arthur Fauser')

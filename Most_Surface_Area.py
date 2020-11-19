@@ -111,7 +111,7 @@ def question_three():
           'm^2 of art created.\nWhile this approach is straight forward is doesn\'t take any scultures into consideration'
           ' nor does it look at \nsimple 3D objects like plates or vases. It measures the surface area of 62 490 on 130'
           ' 000 artworks so', "{:.2f}".format(6249000 / 130000), '% \nof the artwork.\n'
-          '     As mentioned previously measuring the surface are of all artworks is impossible however we can increase the\n'
+          '     As mentioned previously measuring the surface area of all artworks is impossible however we can increase the\n'
           'percentage of used artworks to ',
           "{:.2f}".format(11231100 / 130000), '% by making a couple assumptions:\n'
           '-all objects with only a "diameter" attribute are circular objects\n'
