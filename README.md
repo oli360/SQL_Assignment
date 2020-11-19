@@ -5,4 +5,5 @@ This project is based on database offerd by the Modern Art Museum, if you alread
 the SQLlite databse in the SQL_Helper.py file.
 
 Thank you for looking at my work.
+
 Olivier
