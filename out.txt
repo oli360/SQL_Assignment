@@ -1,5 +1,5 @@
 
-     This is my submission for JOLIEMOI test:
+     This is my submission for JOLIEOI test:
 
      Question 1: (SQL) Which artist in this data set lived the longest?
 

@@ -16,7 +16,7 @@ def output_to_log(sys):
 
 # function used to print all questions
 def my_submission():
-    print('\n     This is my submission for JOLIEMOI test:\n')
+    print('\n     This is my submission for JOLIEOI test:\n')
     question_one()
     print('\n')
     question_two()
