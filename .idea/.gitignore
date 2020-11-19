@@ -2,3 +2,4 @@
 /workspace.xml
 artists.db-journal
 *.pyc 
+venv/
