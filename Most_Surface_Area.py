@@ -7,7 +7,7 @@ c = conn.cursor()  # get the cursor to execute SQL queries
 # relatively simple SQL select statement to retrieve the surface are of all rectangular objects
 sql_select_only_rectangular_objects = (
     'Select artists.Name, artworks."artist ID", SUM(artworks."Height (cm)" * artworks."Width (cm)") as total_surface_area '
-        'from artworks'
+        'from artworks '
     'INNER JOIN artists on artworks."artist ID" = artists."artist ID" '  # join artists to get artist names
     'WHERE "Diameter (cm)" is  null '  # get only rows with "Height (cm)" and "Width (cm)"
         'AND "Height (cm)" is  not null '

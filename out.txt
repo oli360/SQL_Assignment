@@ -68,8 +68,9 @@ the artists "Death Year" and "Birth Year".
 letter and sometime number, making it hard to use.
 4) The column "Classification" in the table artworks contains "Mies van der Rohe Archive" and "Frank Lloyd Wright Archive"
 these could be combined into one "archives" categorie.
- 5) Some artworks have multiple "artist ID" these makes joining tables very complicated, these artworks where ignored 
+5) Some artworks have multiple "artist ID" these makes joining tables very complicated, these artworks where ignored 
 in this assignment, a better practise would be to duplicate them.
 6) Some artwork titles seem to be bugs or mistakes (ex:"5 x 5 = 25: Vystavka zhivopisi" (5 x 5 = 25: An Exhibition of Painting))
 7) Some artworks have a circumference but no diameter it would logical that artwork with a circumference have a
 diameter. It is understandable however that some pieces may have a diameter and no circumference (ex: vase or glass)
+8) Some information is incorrect  
