@@ -26,7 +26,7 @@ Leni Matthaei is the artist who lived the longest, she managed to reach 108 year
 Contrarily to the previous questions this question is open to a multitude of interpretations, the surface
 area of artworks can be very complex to calculate, for example measuring the surface are of a sculpture 
 can be near impossible. 
-     Two answers are proposed for the question, the first is relatively simple, we only look at 2D 
+     Two answers are proposed for the question; the first is relatively simple, we only look at 2D 
 rectangular artworks. This can be done by looking at the "classification" attribute and only selecting data
 entries containing "Print", "Work on Paper", "Photography Research/Reference","Painting", "Photograph"or 
 "Drawing", and only selecting the height and width values to measure the surface area. This approach 
@@ -37,7 +37,7 @@ of the artwork.
      As mentioned previously measuring the surface area of all artworks is impossible however we can increase the
 percentage of used artworks to  86.39 % by making a couple assumptions:
 -all objects with only a "diameter" attribute are circular objects
--all objects with a "diameter" attribute and a value in "Width","Length","Height" are  cylinders
+-all objects with a "diameter" attribute and a value in "Width","Length","Height" are cylinders
 -all objects with only two values in the "Width","Length","Height" attributes are rectangular artworks
 -all objects with three values in "Width","Length","Height" attributes are rectangular prisms
 With these assumptions we find that the artist with the most artwork by surface area is James Lee Byars 
@@ -71,7 +71,7 @@ these could be combined into one "archives" categorie.
 5) Some artworks have multiple "artist ID" this makes joining tables very complicated, these artworks where ignored 
 in this assignment, a better practise would be to duplicate them.
 6) Some artwork titles seem to be bugs or mistakes (ex:"5 x 5 = 25: Vystavka zhivopisi" (5 x 5 = 25: An Exhibition of Painting))
-7) Some artworks have a circumference but no diameter it would logical that artwork with a circumference have a
+7) Some artworks have a circumference but no diameter it would seem logical that artwork with a circumference have a
 diameter. It is understandable however that some pieces may have a diameter and no circumference (ex: vase or glass)
 8) Some information is missing, some artists have passed away and no death year is present in database 
 ex:Poul Cadovius or Arthur Fauser9) Some artists in the artist table are not artists ex: DAS INSTITUT, DIS, "Lerival, New York" 
