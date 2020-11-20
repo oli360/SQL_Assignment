@@ -19,7 +19,7 @@ sql_table_with_acquired_artwork = (
         # was made before the artists death 
         'acquisition_year < artists."Death Year" AND '
         'artworks."Acquisition Date" is not null) OR  '
-        '(artists."Birth Year" > 1942 AND '  # select entries where the artist is born after 1945 and does no have a 
+        '(artists."Birth Year" > 1942 AND '  # selects entries where the artist is born after 1945 and does not have a 
         # "death Date" 
         'artists."Death Year" is null) '
     'GROUP BY artists."artist ID"'  # group by artist since we are only interested in them
@@ -28,9 +28,9 @@ sql_table_with_acquired_artwork = (
 # get the number of rows returned by sql_table_with_acquired_artwork
 sql_table_count_of_aquired_artwork = (
         'SELECT '
-        'COUNT(*) '
+            'COUNT(*) '
         'FROM '
-        '(' + sql_table_with_acquired_artwork + ')'
+            '(' + sql_table_with_acquired_artwork + ')'
 )
 
 c.execute(sql_table_count_of_aquired_artwork)  # execute the SQL query
