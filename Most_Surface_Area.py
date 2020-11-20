@@ -102,7 +102,7 @@ def question_three():
     print('Contrarily to the previous questions this question is open to a multitude of interpretations, the surface\n'
           'area of artworks can be very complex to calculate, for example measuring the surface are of a sculpture \n'
           'can be near impossible. \n'
-          '     Two answers are proposed for the question, the first is relatively simple, we only look at 2D \n'
+          '     Two answers are proposed for the question; the first is relatively simple, we only look at 2D \n'
           'rectangular artworks. This can be done by looking at the "classification" attribute and only selecting data\n'
           'entries containing "Print", "Work on Paper", "Photography Research/Reference","Painting", "Photograph"or \n'
           '"Drawing", and only selecting the height and width values to measure the surface area. This approach \n'
@@ -115,7 +115,7 @@ def question_three():
           'percentage of used artworks to ',
           "{:.2f}".format(11231100 / 130000), '% by making a couple assumptions:\n'
           '-all objects with only a "diameter" attribute are circular objects\n'
-          '-all objects with a "diameter" attribute and a value in "Width","Length","Height" are  cylinders\n'
+          '-all objects with a "diameter" attribute and a value in "Width","Length","Height" are cylinders\n'
           '-all objects with only two values in the "Width","Length","Height" attributes are rectangular artworks\n'
           '-all objects with three values in "Width","Length","Height" attributes are rectangular prisms\n'
           'With these assumptions we find that the artist with the most artwork by surface area is',
